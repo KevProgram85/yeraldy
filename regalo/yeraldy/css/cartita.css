@@ -1,0 +1,64 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+/* ESTILOS GENERALES */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* TÍTULO */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 0 0 12px rgba(57, 198, 214, 0.8);
+    margin-top: 20px;
+}
+
+/* CAJA DE LA CARTITA */
+.cartita {
+    background-color: #0b0b0b;
+    border: 2px solid #39c6d6;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 15px;
+
+    box-shadow: 0 0 15px rgba(57, 198, 214, 0.5);
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+/* BOTÓN DE REGRESO */
+.regresar {
+    display: inline-block;
+    background-color: #0a2be9;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 20px;
+
+    box-shadow: 0 0 12px rgba(10, 43, 233, 0.5);
+    transition: 0.3s;
+}
+
+/* HOVER */
+.regresar:hover {
+    transform: scale(1.08);
+    background-color: #39c6d6;
+    color: #000;
+    box-shadow: 0 0 18px rgba(57, 198, 214, 0.9);
+}

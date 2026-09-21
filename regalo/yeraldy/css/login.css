@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* CAJA DEL LOGIN */
+.login-container {
+    background-color: #0b0b0b;
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+
+    /* Contorno celeste */
+    border: 2px solid #39c6d6;
+
+    /* Glow celeste */
+    box-shadow: 0 0 15px rgba(57, 198, 214, 0.5);
+}
+
+/* TITULO */
+h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(57, 198, 214, 0.7);
+}
+
+/* LABELS */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #fff;
+}
+
+/* INPUTS */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+
+    background-color: #111;
+    color: #fff;
+
+    border: 2px solid #39c6d6;
+    outline: none;
+
+    box-shadow: 0 0 8px rgba(57, 198, 214, 0.3);
+}
+
+/* EFECTO AL HACER CLICK EN INPUT */
+input:focus {
+    border: 2px solid #00e5ff;
+    box-shadow: 0 0 12px rgba(0, 229, 255, 0.8);
+}
+
+/* BOTON */
+button {
+    width: 100%;
+    background-color: #0a2be9;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+
+    box-shadow: 0 0 12px rgba(10, 43, 233, 0.5);
+    transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+/* HOVER DEL BOTON */
+button:hover {
+    transform: scale(1.06);
+    background-color: #39c6d6;
+    color: #000;
+}
+
+/* MENSAJE DE ERROR */
+.error {
+    color: #39c6d6;
+    font-size: 0.9em;
+    margin-top: 12px;
+    text-shadow: 0 0 8px rgba(57, 198, 214, 0.6);
+}
+
+.oculto {
+    display: none;
+}
+
+/* LOGO */
+.logo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 50%;
+
+    border: 2px solid #39c6d6;
+    box-shadow: 0 0 12px rgba(57, 198, 214, 0.6);
+}
